@@ -29,12 +29,10 @@ import java.util.stream.Collectors;
 @Slf4j
 public class IDCardConfigurationProvider {
 
-    @NotNull
     private String truststore;
 
     private String truststoreType = "PKCS12";
 
-    @NotNull
     private String truststorePass;
 
     private boolean ocspEnabled = true;
